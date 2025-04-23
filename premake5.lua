@@ -12,7 +12,6 @@ project 'imgui'
   language 'c++'
   cppdialect 'c++17'
   staticruntime 'off'
-  systemversion 'latest'
 
   targetname ('imgui')
   targetdir (IMGUI_BUILD_DIR or 'build/%{prj.config}/bin')
